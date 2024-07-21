@@ -57,7 +57,7 @@ import InfiniteScroll from "react-infinite-scroll-component";
         >
           <div className="container">
           <div className="row">
-            {articles.map((element) => {
+            {articles.length > 0 && articles.map((element) => {
               return (
                 <div className="col-md-4" key={element.article_id}>
                   <NewsItem
