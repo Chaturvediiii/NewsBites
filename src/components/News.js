@@ -13,10 +13,10 @@ import InfiniteScroll from "react-infinite-scroll-component";
 
   const fetchMoreData = async() => {
     setPage(page+1)
-      let url = `https://newsapi.org/v2/top-headlines?country=${props.country}&category=${props.category}&apiKey=c99990da508d4394a0b79e8e8ca94885&page=${page}&pageSize=${props.pageSize}`;
+      let url = `https://newsdata.io/api/1/latest?country=${props.country}&category=${props.category}&apiKey=${process.env.NEWS_API_KEY}&page=${page}&pageSize=${props.pageSize}`;
       let data = await fetch(url);
       let parsedData = await data.json();
-      setArticles(articles.concat(parsedData.articles))
+      setArticles(articles.concat(parsedData.results))
       setTotalResults(parsedData.totalResults)
   };
 
@@ -59,7 +59,7 @@ import InfiniteScroll from "react-infinite-scroll-component";
           <div className="row">
             {articles.map((element) => {
               return (
-                <div className="col-md-4" key={element.url}>
+                <div className="col-md-4" key={element.article_id}>
                   <NewsItem
                     title={element.title ? element.title.slice(0, 30) : ""}
                     description={
@@ -67,11 +67,11 @@ import InfiniteScroll from "react-infinite-scroll-component";
                         ? element.description.slice(0, 80)
                         : ""
                     }
-                    imageURL={element.urlToImage}
-                    newsURL={element.url}
-                    author={element.author ? element.author.slice(0, 10) : ""}
+                    imageURL={element.image_url}
+                    newsURL={element.source_url}
+                    author={element.creator ? element.author.slice(0, 10) : ""}
                     publishedAt={
-                      element.publishedAt
+                      element.pubDate
                         ? element.publishedAt.slice(0, 10)
                         : ""
                     }

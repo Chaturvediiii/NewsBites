@@ -16,14 +16,13 @@ function NewsItem(props) {
       setIsListening(true);
     }
   };
-
   return (
     <div className="my-3">
       <div className="card">
         <img
           src={
             !props.imageURL
-              ? "https://media.wired.com/photos/659dbf12156f76cbf3057921/191:100/w_1280,c_limit/Gary-Gensler-sec-GettyImages-1660268020.jpg"
+              ? "https://media.istockphoto.com/id/1313303632/video/breaking-news-template-intro-for-tv-broadcast-news-show-program-with-3d-breaking-news-text.jpg?s=640x640&k=20&c=S0dTZp37XKVcCAnoguMnRatvv4Nkp2cjmA5aYOOrJs8="
               : props.imageURL
           }
           className="card-img-top"

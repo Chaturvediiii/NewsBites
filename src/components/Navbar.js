@@ -12,11 +12,10 @@ const Navbar = () => {
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-              <li className="nav-item"><Link className="nav-link text-capitalize" aria-current="page" to="/">Home</Link></li>
-              <li className="nav-item"><Link className="nav-link text-capitalize" aria-current="page" to="/business">business</Link></li>
+              <li className="nav-item"><Link className="nav-link text-capitalize" aria-current="page" to="/NewsMonkey">business</Link></li>
               <li className="nav-item"><Link className="nav-link text-capitalize" aria-current="page" to="/entertainment">entertainment</Link></li>
-              <li className="nav-item"><Link className="nav-link text-capitalize" aria-current="page" to="/general">general</Link></li>
               <li className="nav-item"><Link className="nav-link text-capitalize" aria-current="page" to="/health">health</Link></li>
+              <li className="nav-item"><Link className="nav-link text-capitalize" aria-current="page" to="/politics">politics</Link></li>
               <li className="nav-item"><Link className="nav-link text-capitalize" aria-current="page" to="/science">science</Link></li>
               <li className="nav-item"><Link className="nav-link text-capitalize" aria-current="page" to="/sports">sports</Link></li>
               <li className="nav-item"><Link className="nav-link text-capitalize" aria-current="page" to="/technology">technology</Link></li>
