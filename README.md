@@ -40,7 +40,7 @@ To get started with NewsMonkey, follow these steps:
 
 ## Contributing
 
-If you'd like to contribute to StockTracker, follow these steps:
+If you'd like to contribute to NewsMonkey, follow these steps:
 
 1. Fork the repository.
 2. Create a new branch: `git checkout -b feature/new-feature`.
