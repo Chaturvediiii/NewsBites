@@ -6,9 +6,9 @@
 - [Technologies Used](#technologies-used)
 - [Contributing](#contributing)
 
-# NewsMonkey Website
+# NewsBites Website
 
-Welcome to NewsMonkey, a React and Bootstrap-powered web application that provides the latest news in sports, technology, science, entertainment, health, and business. Listen to news updates in English for a convenient and accessible experience.
+Welcome to NewsBites, a React and Bootstrap-powered web application that provides the latest news in sports, technology, science, entertainment, health, and business. Listen to news updates in English for a convenient and accessible experience.
 
 ## Features
 
@@ -19,7 +19,7 @@ Welcome to NewsMonkey, a React and Bootstrap-powered web application that provid
 
 ## Getting Started
 
-To get started with NewsMonkey, follow these steps:
+To get started with NewsBites, follow these steps:
 
 1. Clone the repository: `git clone https://github.com/Chaturvediiii/NewsMonkey.git`
 2. Navigate to the project directory: `cd NewsMonkey`
