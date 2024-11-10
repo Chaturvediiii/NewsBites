@@ -2,7 +2,6 @@ import React, { useState } from "react";
 
 function NewsItem(props) {
   const [isListening, setIsListening] = useState(false);
-  const [utterance, setUtterance] = useState(null);
 
   const handleListen = () => {
     if (isListening) {
@@ -12,7 +11,6 @@ function NewsItem(props) {
       const newUtterance = new SpeechSynthesisUtterance();
       newUtterance.text = `${props.title}. ${props.description}`;
       window.speechSynthesis.speak(newUtterance);
-      setUtterance(newUtterance);
       setIsListening(true);
     }
   };
