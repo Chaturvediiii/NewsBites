@@ -17,7 +17,6 @@ Welcome to NewsBites, a React and Bootstrap-powered web application that provide
 - **Responsive Design:** Enjoy a consistent experience across devices.
 - **Bootstrap Integration:** Modern and visually appealing interface.
 
-<<<<<<< HEAD
 ## Getting Started
 
 To get started with NewsBites, follow these steps:
@@ -32,8 +31,7 @@ To get started with NewsBites, follow these steps:
 1. Navigate through news categories using the navigation bar.
 2. Click on articles to read the full content.
 3. Use the audio feature to listen to news updates.
-=======
->>>>>>> 9ba6744b2e27fc3a6a0cadbe2277c35db97e12a0
+
 ## Technologies Used
 
 - [React](https://reactjs.org/)
@@ -41,7 +39,6 @@ To get started with NewsBites, follow these steps:
 - JavaScript
 - [NewsAPI][https://newsapi.org/]
 
-<<<<<<< HEAD
 ## Contributing
 
 If you'd like to contribute to NewsBites, follow these steps:
@@ -59,10 +56,9 @@ News API
 ## Note 
 For some reason the NEWSAPI works only on the localhost. Below is the snapshot from my NewsBites website.
 ![SnapShot](/public/Snapshot.png)
-=======
+
 ## Note 
 For some reason the NEWSAPI works only on the localhost.
->>>>>>> 9ba6744b2e27fc3a6a0cadbe2277c35db97e12a0
 
 
 
