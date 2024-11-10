@@ -20,11 +20,7 @@ function NewsItem(props) {
     <div className="my-3">
       <div className="card">
         <img
-          src={
-            !props.imageURL
-              ? "https://media.istockphoto.com/id/1313303632/video/breaking-news-template-intro-for-tv-broadcast-news-show-program-with-3d-breaking-news-text.jpg?s=640x640&k=20&c=S0dTZp37XKVcCAnoguMnRatvv4Nkp2cjmA5aYOOrJs8="
-              : props.imageURL
-          }
+          src={props.imageURL}
           className="card-img-top"
           alt="..."
         />
@@ -33,7 +29,7 @@ function NewsItem(props) {
           <p className="card-text">{props.description}...</p>
           <p className="card-text">
             <small className="text-body-secondary text-dark">
-              By {props.author} on {new Date(props.date).toTimeString()}
+            By {!props.author ? "Unknown" : props.author} on  {new Date(props.publishedAt).toGMTString()}
             </small>
           </p>
           <div className="d-flex justify-content-between">
@@ -43,14 +39,14 @@ function NewsItem(props) {
           >
             {isListening ? "Stop Listening" : "Listen"}
           </button>
-          <button
+          <a
             href={props.newsURL}
             rel="noreferrer"
             target="_blank"
             className="btn btn-sm btn-dark ml-2"
           >
             Read more
-          </button>
+          </a>
           </div>
         </div>
       </div>

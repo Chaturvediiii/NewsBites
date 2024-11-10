@@ -6,9 +6,9 @@
 - [Technologies Used](#technologies-used)
 - [Contributing](#contributing)
 
-# NewsMonkey Website
+# NewsBites Website
 
-Welcome to NewsMonkey, a React and Bootstrap-powered web application that provides the latest news in sports, technology, science, entertainment, health, and business. Listen to news updates in English for a convenient and accessible experience.
+Welcome to NewsBites, a React and Bootstrap-powered web application that provides the latest news in sports, technology, science, entertainment, health, and business. Listen to news updates in English for a convenient and accessible experience.
 
 ## Features
 
@@ -19,10 +19,10 @@ Welcome to NewsMonkey, a React and Bootstrap-powered web application that provid
 
 ## Getting Started
 
-To get started with NewsMonkey, follow these steps:
+To get started with NewsBites, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/Chaturvediiii/NewsMonkey.git`
-2. Navigate to the project directory: `cd NewsMonkey`
+1. Clone the repository: `git clone https://github.com/Chaturvediiii/NewsBites.git`
+2. Navigate to the project directory: `cd NewsBites`
 3. Install dependencies: `npm install`
 4. Start the development server: `npm start`
 
@@ -40,7 +40,7 @@ To get started with NewsMonkey, follow these steps:
 
 ## Contributing
 
-If you'd like to contribute to NewsMonkey, follow these steps:
+If you'd like to contribute to NewsBites, follow these steps:
 
 1. Fork the repository.
 2. Create a new branch: `git checkout -b feature/new-feature`.
@@ -53,7 +53,7 @@ Bootstrap
 News API
 
 ## Note 
-For some reason the NEWSAPI works only on the localhost. Below is the snapshot from my NewsMonkey website.
+For some reason the NEWSAPI works only on the localhost. Below is the snapshot from my NewsBites website.
 ![SnapShot](/public/Snapshot.png)
 
 
